@@ -43,7 +43,6 @@ public class Koalas : MonoBehaviour
             checkedObject.SetActive(true);
             obj.SetActive(false);
             count++;
-            Debug.Log(count);
         }
     }
 }

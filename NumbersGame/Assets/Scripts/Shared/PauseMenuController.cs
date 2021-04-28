@@ -76,6 +76,10 @@ public class PauseMenuController : MonoBehaviour
         {
             if (Koalas.count == 3) return true;
         }
+        else if (index == 4)
+        {
+            if (Fish.count == 4) return true;
+        }
         return false;
     }
 }
