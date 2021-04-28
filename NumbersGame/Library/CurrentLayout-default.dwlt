@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 8}
-  m_MinSize: {x: 875, y: 521}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -123,10 +123,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
     width: 411
     height: 635
   m_MinSize: {x: 231, y: 471}
   m_MaxSize: {x: 10001, y: 14021}
+=======
+    width: 389
+    height: 731
+  m_MinSize: {x: 231, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+>>>>>>> Stashed changes
   vertical: 1
   controlID: 17
 --- !u!114 &6
@@ -150,12 +157,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< Updated upstream
     width: 1366
     height: 635
   m_MinSize: {x: 906, y: 471}
   m_MaxSize: {x: 22001, y: 14021}
   vertical: 0
   controlID: 131
+=======
+    width: 1536
+    height: 731
+  m_MinSize: {x: 911, y: 492}
+  m_MaxSize: {x: 22006, y: 14042}
+  vertical: 0
+  controlID: 154
+>>>>>>> Stashed changes
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,10 +189,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
     width: 411
     height: 366
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    width: 389
+    height: 350
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> Stashed changes
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -202,8 +225,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
     width: 1366
     height: 685
+=======
+    width: 1536
+    height: 781
+>>>>>>> Stashed changes
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &9
@@ -459,20 +487,35 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< Updated upstream
     - Assets/Scripts/Shared
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
   - Assets/Scripts/Shared
+=======
+    - Assets/Sprites/ex2
+  m_ViewMode: 1
+  m_StartGridSize: 96
+  m_LastFolders:
+  - Assets/Sprites/ex2
+>>>>>>> Stashed changes
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\User\Documents\Caramel books game\NumbersGame\NumbersGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< Updated upstream
     scrollPos: {x: 0, y: 90}
     m_SelectedIDs: 8a3c0000
     m_LastClickedID: 15498
     m_ExpandedIDs: 00000000be3b0000c03b0000c83b0000ca3b000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ae3a0000
+    m_LastClickedID: 15022
+    m_ExpandedIDs: 00000000943a0000963a0000a23a0000683f0000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -500,7 +543,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000be3b0000c03b0000
+=======
+    m_ExpandedIDs: 00000000943a0000963a0000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -622,10 +669,17 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< Updated upstream
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 0abaffff2abcffff2ebcffff6cbcffff88bcffff72beffff78beffffc0beffff34deffff32f2ffff7ef2ffff8ef5ffff88f6ffff503c000098410000a641000052430000a8430000ca430000fe5a00001c5e0000245f000072660000
+=======
+      scrollPos: {x: 0, y: 76}
+      m_SelectedIDs: 10efffff
+      m_LastClickedID: -4336
+      m_ExpandedIDs: b0efffffecf6ffffe8f8fffff6f8ffff04f9ffff12f9ffff20f9ffff18faffff62fbffff063f0000
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -685,9 +739,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< Updated upstream
     m_Target: {x: 0.028590105, y: 1.887215, z: -0.38839418}
     speed: 2
     m_Value: {x: 0.028590105, y: 1.887215, z: -0.38839418}
+=======
+    m_Target: {x: -0.27514344, y: 0.41498464, z: -1.0367967}
+    speed: 2
+    m_Value: {x: -0.34799325, y: 0.42562607, z: -1.0250337}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -737,9 +797,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< Updated upstream
     m_Target: 2.530348
     speed: 2
     m_Value: 2.530348
+=======
+    m_Target: 3.1221642
+    speed: 2
+    m_Value: 3.2692819
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 1
     speed: 2
