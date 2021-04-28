@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Manager : MonoBehaviour
 {
     public static bool nb3 = true, nb5 = true, nb7 = true, nb10 = true;
+    public static bool four = true, five = true, six = true;
 
 
     // Start is called before the first frame update

@@ -27,13 +27,6 @@ public class PauseMenuController : MonoBehaviour
             unmuteBtn.SetActive(true);
         }
 
-        //HotCategory.full1 = false;
-        //HotCategory.full2 = false;
-        //HotCategory.full3 = false;
-        //ColdCategory.full1 = false;
-        //ColdCategory.full2 = false;
-        //ColdCategory.full3 = false;
-
     }
 
     // Update is called once per frame
@@ -51,7 +44,7 @@ public class PauseMenuController : MonoBehaviour
         }
         if (detectWin(SceneManager.GetActiveScene().buildIndex))
         {
-			if(SceneManager.GetActiveScene().buildIndex == 3)
+			if(SceneManager.GetActiveScene().buildIndex == 4)
 			{
 				SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 			}
@@ -77,12 +70,11 @@ public class PauseMenuController : MonoBehaviour
         }
         else if (index == 2)
         {
-            //if (Big.locked && Inside.locked && Slow.locked && Left.locked) return true;
+            if (Four.locked && Five.locked) return true;
         }
         else if (index == 3)
         {
-            //if (CheckIntrus.intrus1 && CheckIntrus.intrus2 && CheckIntrus.intrus3) return true;
-            //if (Single.intrus && Short.intrus && Light.intrus) return true;
+            if (Koalas.count == 3) return true;
         }
         return false;
     }
