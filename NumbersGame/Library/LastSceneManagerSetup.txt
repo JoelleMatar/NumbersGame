@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/CoverScene.unity
+- path: Assets/Scenes/Exercise4Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
