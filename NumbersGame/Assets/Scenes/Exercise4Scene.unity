@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &39622963
 Transform:
   m_ObjectHideFlags: 0
@@ -191,7 +191,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b53acb5f0a6eedf43a5bdffe7ae04038, type: 3}
   m_Color: {r: 0.9528302, g: 0.21124065, b: 0.21124065, a: 1}
   m_FlipX: 0
@@ -240,6 +240,7 @@ GameObject:
   - component: {fileID: 67068685}
   - component: {fileID: 67068686}
   - component: {fileID: 67068687}
+  - component: {fileID: 67068688}
   m_Layer: 0
   m_Name: fish7
   m_TagString: Untagged
@@ -325,6 +326,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 67068684}
   checkedObject: {fileID: 1326517543}
+--- !u!61 &67068688
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67068684}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.13, y: 0.77}
+    newSize: {x: 1.13, y: 0.77}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.13, y: 0.77}
+  m_EdgeRadius: 0
 --- !u!1 &105677330
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,6 +429,7 @@ GameObject:
   - component: {fileID: 158438153}
   - component: {fileID: 158438154}
   - component: {fileID: 158438155}
+  - component: {fileID: 158438156}
   m_Layer: 0
   m_Name: fish5
   m_TagString: Untagged
@@ -487,6 +515,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 158438152}
   checkedObject: {fileID: 202064092}
+--- !u!61 &158438156
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158438152}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.29, y: 0.74}
+    newSize: {x: 1.29, y: 0.74}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.29, y: 0.74}
+  m_EdgeRadius: 0
 --- !u!1 &159259376
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,7 +558,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &159259377
 Transform:
   m_ObjectHideFlags: 0
@@ -557,7 +611,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8f45958cb16b28c42aa6831f4240bbbc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -612,7 +666,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &202064093
 Transform:
   m_ObjectHideFlags: 0
@@ -665,7 +719,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5e03a5912861f924c9413ebf38ef8878, type: 3}
   m_Color: {r: 1, g: 0.9960383, b: 0.5896226, a: 1}
   m_FlipX: 0
@@ -789,6 +843,7 @@ GameObject:
   - component: {fileID: 498723149}
   - component: {fileID: 498723150}
   - component: {fileID: 498723151}
+  - component: {fileID: 498723152}
   m_Layer: 0
   m_Name: fish6
   m_TagString: Untagged
@@ -874,6 +929,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 498723148}
   checkedObject: {fileID: 1533719936}
+--- !u!61 &498723152
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498723148}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.11, y: 0.69}
+    newSize: {x: 1.11, y: 0.69}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.11, y: 0.69}
+  m_EdgeRadius: 0
 --- !u!1 &643320967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,6 +1303,7 @@ GameObject:
   - component: {fileID: 910291273}
   - component: {fileID: 910291274}
   - component: {fileID: 910291275}
+  - component: {fileID: 910291276}
   m_Layer: 0
   m_Name: fish2
   m_TagString: Untagged
@@ -1307,6 +1389,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 910291272}
   checkedObject: {fileID: 39622962}
+--- !u!61 &910291276
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910291272}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.19, y: 0.74}
+    newSize: {x: 1.19, y: 0.74}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.19, y: 0.74}
+  m_EdgeRadius: 0
 --- !u!1 &928831074
 GameObject:
   m_ObjectHideFlags: 0
@@ -1840,7 +1948,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1326517544
 Transform:
   m_ObjectHideFlags: 0
@@ -1893,7 +2001,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4dbea6f830e0fed4aa8eebcfed4c42cf, type: 3}
   m_Color: {r: 0.75, g: 0.93458474, b: 1, a: 1}
   m_FlipX: 0
@@ -1948,7 +2056,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1329375787
 Transform:
   m_ObjectHideFlags: 0
@@ -2001,7 +2109,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6374855298ed27b418ef047c02321b89, type: 3}
   m_Color: {r: 0.8679245, g: 0.4779765, b: 0.39711642, a: 1}
   m_FlipX: 0
@@ -2050,6 +2158,7 @@ GameObject:
   - component: {fileID: 1383457325}
   - component: {fileID: 1383457326}
   - component: {fileID: 1383457327}
+  - component: {fileID: 1383457328}
   m_Layer: 0
   m_Name: fish1
   m_TagString: Untagged
@@ -2135,6 +2244,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 1383457324}
   checkedObject: {fileID: 159259376}
+--- !u!61 &1383457328
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383457324}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.19, y: 0.81}
+    newSize: {x: 1.19, y: 0.81}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.19, y: 0.81}
+  m_EdgeRadius: 0
 --- !u!1 &1533719936
 GameObject:
   m_ObjectHideFlags: 0
@@ -2152,7 +2287,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1533719937
 Transform:
   m_ObjectHideFlags: 0
@@ -2205,7 +2340,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6374855298ed27b418ef047c02321b89, type: 3}
   m_Color: {r: 1, g: 0.7688679, b: 0.9788214, a: 1}
   m_FlipX: 0
@@ -2431,6 +2566,7 @@ GameObject:
   - component: {fileID: 1755119589}
   - component: {fileID: 1755119590}
   - component: {fileID: 1755119591}
+  - component: {fileID: 1755119592}
   m_Layer: 0
   m_Name: fish4
   m_TagString: Untagged
@@ -2516,6 +2652,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 1755119588}
   checkedObject: {fileID: 1914556373}
+--- !u!61 &1755119592
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755119588}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.13, y: 0.77}
+    newSize: {x: 1.13, y: 0.77}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.13, y: 0.77}
+  m_EdgeRadius: 0
 --- !u!1 &1864603085
 GameObject:
   m_ObjectHideFlags: 0
@@ -2610,6 +2772,7 @@ GameObject:
   - component: {fileID: 1867893753}
   - component: {fileID: 1867893754}
   - component: {fileID: 1867893755}
+  - component: {fileID: 1867893756}
   m_Layer: 0
   m_Name: fish3
   m_TagString: Untagged
@@ -2695,6 +2858,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 1867893752}
   checkedObject: {fileID: 1329375786}
+--- !u!61 &1867893756
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867893752}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.11, y: 0.69}
+    newSize: {x: 1.11, y: 0.69}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.11, y: 0.69}
+  m_EdgeRadius: 0
 --- !u!1 &1914556373
 GameObject:
   m_ObjectHideFlags: 0
@@ -2712,7 +2901,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1914556374
 Transform:
   m_ObjectHideFlags: 0
@@ -2765,7 +2954,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4dbea6f830e0fed4aa8eebcfed4c42cf, type: 3}
   m_Color: {r: 0.6018455, g: 0.990566, b: 0.35978103, a: 1}
   m_FlipX: 0

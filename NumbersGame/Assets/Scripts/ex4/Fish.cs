@@ -16,7 +16,6 @@ public class Fish : MonoBehaviour
         count = 0;
         checkedObject.SetActive(false);
         obj.SetActive(true);
-        Debug.Log("in start");
     }
 
     // Update is called once per frame
@@ -35,13 +34,11 @@ public class Fish : MonoBehaviour
                     count++;
                 }
         }
-        Debug.Log("in update");
         
     }
 
     void OnMouseDown()
     {
-        Debug.Log(" mouse down");
         if (count < 4 && !checkedObject.activeSelf)
         {
             Debug.Log("count<4");
